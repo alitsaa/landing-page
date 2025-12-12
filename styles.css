@@ -1,0 +1,46 @@
+body {
+ margin: 0;
+ padding: 0;
+}
+.header {
+    font-family: 'Roboto', 'Arial';
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.info {
+    background-color: white;
+    height: 300px;
+
+}
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300px;
+    height: 300px;
+
+}
+.action {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    height: 300px;
+}
+button {
+    color: #3882F6;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 28px;
+}
