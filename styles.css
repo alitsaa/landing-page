@@ -2,35 +2,69 @@ body {
  margin: 0;
  padding: 0;
 }
+.logo {
+    margin: 10px;
+}
 .header {
-    font-family: 'Roboto', 'Arial';
+    font-family: 'Roboto';
     background-color: #1F2937;
     font-size: 24px;
     color: #F9FAF8;
     height: 300px;
     padding: 0;
-    margin: 0;
+    margin: 0px;
     display: flex;
     justify-content: space-between;
 }
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-top: 10px;
+
+}
 .info {
+    font-family: 'Roboto';
     background-color: white;
     height: 300px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 
 }
 .quote {
+    font-family: 'Roboto';
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
-    font-weight: 300px;
+    font-weight: 300;
     height: 300px;
 
 }
+.bottom {
+    background-color: white;
+    height: 300px;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+
+}
 .action {
+    background-color: #3882F6;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    height: 300px;
+    height: 200px;
 }
 button {
     color: #3882F6;
@@ -43,4 +77,9 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
     gap: 28px;
+}
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
