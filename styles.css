@@ -5,16 +5,32 @@ body {
 .logo {
     margin: 10px;
 }
-.header {
+.full-header {
     font-family: 'Roboto';
     background-color: #1F2937;
-    font-size: 24px;
-    color: #F9FAF8;
     height: 300px;
     padding: 0;
     margin: 0px;
+}
+.header {
+    font-size: 24px;
+    color: #F9FAF8;
     display: flex;
     justify-content: space-between;
+}
+.other {
+    color: #F9FAF8;
+    text-align: center; 
+    font-size: 24px;
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-start;
+}
+.other-p {
+    color: #E5E7EB;
+    font-weight: 0;
+    display: flex;
+
 }
 
 .logo {
@@ -66,8 +82,15 @@ body {
     color: #1F2937;
     height: 200px;
 }
-button {
-    color: #3882F6;
+.button {
+    color:#E5E7EB;
+    background-color: #3882F6;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    border-color: white;
+    font-size: 16px;
+    border-radius: 10px;
 }
 ul {
     display: flex;
@@ -82,4 +105,13 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
 }
