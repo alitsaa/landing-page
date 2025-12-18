@@ -79,16 +79,24 @@ body {
 .info {
     font-family: 'Roboto';
     background-color: white;
+    color: black;
     height: 600px;
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     margin: 0;
     padding: 0;
-
+    flex: 1;
+    gap: 16px;
+}
+.rando {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
 }
 #info {
     display: flex;
@@ -141,7 +149,6 @@ body {
 .bottom {
     background-color: white;
     height: 600px;
-    max-width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,7 +162,14 @@ body {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    width: 800px;
     height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
 }
 .button {
     color:#E5E7EB;
@@ -202,15 +216,21 @@ li {
     height: 100px;
 
 }
-.call, .action {
+
+.call, .sign-up {
     color:#F9FAF8;
-    font-weight: 300px;
+    font-weight: 100;
     font-family: 'Roboto';
 }
 .call {
     font-size: 24px;
     display: flex;
-    justify-content: flex-start;
+    margin-right: 320px;
+    font-weight: 500;
+}
+.sign-up {
+    margin-right: 170px;
+    font-size: 15px;
 }
 .a-info {
     font-size: 12px;
