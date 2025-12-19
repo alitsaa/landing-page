@@ -87,6 +87,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
     flex: 1;
@@ -169,6 +170,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    padding: 20px;
     
 }
 .button {
@@ -192,6 +194,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 600px;
+    margin-bottom: 110px;
 }
 ul {
     display: flex;
@@ -225,12 +229,22 @@ li {
 .call {
     font-size: 24px;
     display: flex;
-    margin-right: 320px;
     font-weight: 500;
+    margin-right: 295px;
+}
+.call-up {
+    margin-top: 75px;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .sign-up {
-    margin-right: 170px;
     font-size: 15px;
+    margin-right: 150px;
+    margin-top: 0;
 }
 .a-info {
     font-size: 12px;
