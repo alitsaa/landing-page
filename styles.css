@@ -64,9 +64,6 @@ body {
 
     display: flex;
     align-items: center;
-    margin-left: auto;
-    margin-right: 200px;
-    margin-bottom: 450px;
 }
 
 .logo {
@@ -159,6 +156,8 @@ body {
 
 }
 .action {
+    width: 350px;
+    height: 150px;
     background-color: #3882F6;
     font-size: 36px;
     font-weight: 900;
@@ -170,8 +169,6 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    padding: 20px;
-    
 }
 .button {
     color:#E5E7EB;
@@ -187,15 +184,31 @@ body {
     justify-content: center;
     align-items: center;
     margin-left: 200px;
+    margin-bottom: 100px;
 }
-#b-button {
+.b-button {
     outline-style: solid;
     outline-color:#F9FAF8;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 600px;
-    margin-bottom: 110px;
+    color:#E5E7EB;
+    background-color: #3882F6;
+    width: 100px;
+    height: 30px;
+    border: 10px;
+    border-color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+}
+.sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-left: 530px;
 }
 ul {
     display: flex;
@@ -230,21 +243,24 @@ li {
     font-size: 24px;
     display: flex;
     font-weight: 500;
-    margin-right: 295px;
+    justify-content: center;
+    align-self: flex-start;
 }
 .call-up {
-    margin-top: 75px;
-    width: 600px;
-    height: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-right: 264px;
 }
 .sign-up {
-    font-size: 15px;
-    margin-right: 150px;
+    font-size: 15px; 
+    align-self: flex-start;
     margin-top: 0;
+}
+.sign {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-self: center;
 }
 .a-info {
     font-size: 12px;
