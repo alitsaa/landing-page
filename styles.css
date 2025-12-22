@@ -63,7 +63,9 @@ body {
     height: 250px;
 
     display: flex;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-start;
+    outline-style: dashed;
 }
 
 .logo {
